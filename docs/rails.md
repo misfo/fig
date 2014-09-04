@@ -69,7 +69,7 @@ Open up your newly-generated `database.yml`. Replace its contents with the follo
     development: &default
       adapter: postgresql
       encoding: unicode
-      database: postgres
+      database: myapp_development
       pool: 5
       username: postgres
       password:
